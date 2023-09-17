@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .test{
+    width: 300px;
+    height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #e62424;
+  border: 3px solid #158ba8;
+  }
+  .filler{
+    
+  flex: 1;
+  }
+  .child{
+    width: 50px;
+    height: 50px;
+  }
+
+</style>
+<script src="cutoff.js"></script>
+</head>
+<body>
+
+<div class="test" cutoff-corner="bottom-right" cutoff-amount="50px"></div>
+
+</body>
+</html>

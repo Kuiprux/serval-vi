@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="cyberpunk.js"></script>
+	<script src="https://accounts.google.com/gsi/client" async></script>
+	<script src="login.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<div id="g_id_onload" data-client_id="568211751991-ea23ubvhib6ohbljif2g9keru6a0r9fo.apps.googleusercontent.com"
+		data-context="signin" data-ux_mode="popup" data-callback="loginCallback" data-auto_prompt="false">
+	</div>
+	<title>Server-VI</title>
+</head>
+
+<body>
+	<div class="center-container">
+		<div class="upper-container">
+			<img src="logo.svg" class="logo" alt="logo">
+			<h1>사용자 인증</h1>
+		</div>
+		<div class="login-box" cutoff-corner="bottom-right" cutoff-amount="3vh">
+
+			<div class="g_id_signin" data-type="standard" data-shape="square" data-theme="outline"
+				data-text="signin_with" data-size="large" data-logo_alignment="left">
+			</div>
+		</div>
+	</div>
+	<div class="access-result" id="access-result">
+		<div class="fancy-line"></div>
+		<div class="result-content" id="result-content"></div>
+		<div class="fancy-line reversed"></div>
+	</div>
+</body>
+</html>
